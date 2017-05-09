@@ -4,13 +4,13 @@
  */
 import React, {Component} from 'react';
 
-class Home extends Component{
+class Admin extends Component{
     render() {
         return (<div>
-            ..Home..
+            ..Admin..
         </div>)
     }
 }
 
-export default Home;
+export default Admin;
 
