@@ -7,7 +7,17 @@ import React, {Component} from 'react';
 class Signup extends Component{
     render() {
         return (<div>
-            ..SignUp..
+            <form>
+                <label>Name:</label>
+                <input/>
+                <label>Email Id: </label>
+                <input/>
+                <label>Password:</label>
+                <input/>
+                <label>Confirm Password:</label>
+                <input/>
+                <button>Sign Up</button>
+            </form>
         </div>)
     }
 }
